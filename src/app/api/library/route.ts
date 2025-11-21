@@ -5,7 +5,7 @@ export async function GET(req: NextRequest) {
   console.log(`[library/GET] Request received`);
   const { searchParams } = new URL(req.url);
   const steamInput = searchParams.get("steamid");
-  const apiKey = process.env.STEAM_API_KEY || "BAAA15D57A3961980B0B0C950E7A72F8";
+  const apiKey = process.env.STEAM_API_KEY;
 
   console.log(`[library/GET] Request params - steamInput: ${steamInput}, apiKey exists: ${!!apiKey}, apiKey length: ${apiKey?.length}`);
 

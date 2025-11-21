@@ -15,7 +15,7 @@ export async function GET(req: NextRequest) {
   const aInput = searchParams.get("a");
   const bInput = searchParams.get("b");
   const compareBy = (searchParams.get("compareBy") || "playtime") as "playtime" | "achievements";
-  const apiKey = process.env.STEAM_API_KEY || "BAAA15D57A3961980B0B0C950E7A72F8";
+  const apiKey = process.env.STEAM_API_KEY;
 
   console.log(`[compare/GET] Request params - aInput: ${aInput}, bInput: ${bInput}, apiKey exists: ${!!apiKey}, apiKey length: ${apiKey?.length}`);
 
