@@ -1,0 +1,10 @@
+# ads.txt - Google AdSense verification file
+# Only needed if you're using Google AdSense
+
+# Format: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# CUSTOMIZATION REQUIRED:
+# Replace pub-XXXXXXXXXXXXXXXX with your actual Google AdSense Publisher ID
+# You can find this in your AdSense account settings
+

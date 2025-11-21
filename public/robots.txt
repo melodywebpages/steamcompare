@@ -1,0 +1,11 @@
+# robots.txt - Controls search engine crawling
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://steamcompare.com/sitemap.xml
+
+# Optional: Disallow API routes
+Disallow: /api/
+
